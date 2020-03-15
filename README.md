@@ -1,9 +1,27 @@
 # pfcrypto
-basic chome extension to automatically update cryptocurrency holdings (any coin: BTC, ETH, ZEC, etc.)
+basic extension to automatically update cryptocurrency holdings (any coin: BTC, ETH, ZEC, etc.)
+
+## Links
+
+[Chrome](https://chrome.google.com/webstore/detail/pfcrypto/ceepigemlmlbphjhffddplfecgedhoeb)
+
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/ceepigemlmlbphjhffddplfecgedhoeb?style=flat-square)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ceepigemlmlbphjhffddplfecgedhoeb?style=flat-square)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ceepigemlmlbphjhffddplfecgedhoeb?style=flat-square)
+
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/_pfcrypto/)
+
+![Mozilla Add-on](https://img.shields.io/amo/users/_pfcrypto?style=flat-square)
+![Mozilla Add-on](https://img.shields.io/amo/rating/_pfcrypto?style=flat-square)
+![Mozilla Add-on](https://img.shields.io/amo/v/_pfcrypto?style=flat-square)
 
 ![image](https://user-images.githubusercontent.com/8977050/33094770-41b65094-cecf-11e7-890f-79ec052487e3.png)
 
 ## Changelog
+
+#### 03/15/2020:
+
+* complete code refactor. make it easier to support a different api in the future.
 
 #### 03/13/2020:
 
@@ -21,10 +39,10 @@ basic chome extension to automatically update cryptocurrency holdings (any coin:
 
 * Address support for ETH and BTC. Put the wallet address in the "Account Description" field and the "number of shares" will automatically be updated along with the current price
 
-## 11/11/17:
+#### 11/11/17:
 * Script has been updated to perform each holding update in series to prevent securities in the same manual account from not updating.
 
-## 09/25/17:
+#### 09/25/17:
 
 * To address the issue with cryptocurrencies which directly match a security found by personal capital's search (such as NEO), the script has been updated to strip everything except a-z characters in the crypto ticker.
 
